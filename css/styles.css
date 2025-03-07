@@ -11,8 +11,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
+  --bs-blue:rgb(0, 0, 0);
+  --bs-indigo:rgb(0, 0, 0);
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
@@ -109,6 +109,11 @@ hr {
   border: 0;
   border-top: 0.125rem solid;
   opacity: 0.25;
+}
+
+.custom-img{
+  width: 100%;
+  height: auto;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -10912,6 +10917,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 
 #mainNav {
   padding-top: 1rem;
